@@ -315,7 +315,7 @@ body {
 }
 .show-container {
 	position: absolute;
-	top: 0%;
+	top: 1%;
 	left: 25%;
 	opacity: 1;
 	height: 1px;
