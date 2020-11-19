@@ -309,7 +309,7 @@ body {
 .poseidon-container {
 	position: absolute;
 	left:50%;
-	top: 0%;
+	top: 1%;
 	height: 0px;
 	width: 50%;
 }
