@@ -293,9 +293,9 @@ body {
 
 .instruction-bubble {
 	position: absolute;
-	height: 300px;
-	top: 0;
-	left: 120px;
+	height: 20rem;
+	top: 0%;
+	left: 0%;
 	opacity: 0.8;
 	transform: rotateY(180deg) rotate(40deg);
 }
@@ -303,27 +303,30 @@ body {
 	position: absolute;
 	font-size: 1.5em;
 	color: #D3D3D3;
-	top: 50px;
-	left: 170px;
+	margin-top: 35%;
+	left: 12%;
 }
 .poseidon-container {
 	position: absolute;
-	left: 400px;
+	border: 1px solid black;
+	left:50%;
+	top: 0%;
 	height: 0px;
-	width: 0px;
+	width: 50%;
 }
 .show-container {
 	position: absolute;
-	top: -10px;
-	left: 410px;
-	opacity: 0;
+	top: 0%;
+	left: 25%;
+	opacity: 1;
 	height: 1px;
-	width: 1px;
 	overflow: hidden;
+	border: 1px solid red;
+	width: 30%;
 }
 .poseidon-container:hover .show-container {
 	opacity: 1;
-	height: 120px;
-	width: 120px;
+	height: 20rem;
+	width: 20rem;
 	overflow: visible;
 }
