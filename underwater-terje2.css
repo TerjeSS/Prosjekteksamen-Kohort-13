@@ -308,7 +308,6 @@ body {
 }
 .poseidon-container {
 	position: absolute;
-	border: 1px solid black;
 	left:50%;
 	top: 0%;
 	height: 0px;
@@ -321,7 +320,6 @@ body {
 	opacity: 1;
 	height: 1px;
 	overflow: hidden;
-	border: 1px solid red;
 	width: 30%;
 }
 .poseidon-container:hover .show-container {
